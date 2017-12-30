@@ -187,3 +187,39 @@ div.img-container {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
+.vert-disk {
+	align-self: center;
+	text-align: center;
+}
+
+figure {
+	font-size: 15px;
+}
+
+.img-container-before {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border: 3px solid #58595b;
+	padding: 7px;
+}
+
+.img-container-after {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border: 3px solid #58595b;
+	padding: 7px;
+}
+
+.all-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+  padding: 10px;
+}
+
+.horison {
+	border-radius: 5px;
+}
